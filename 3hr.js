@@ -19,6 +19,8 @@ document.write("167");
 document.write("<br/>");
 document.write("25");
 document.write("<br/>");
-
+//使用字串 字串用法
+var phrase = "hello Mr.doki"
+document.write(phrase);
 
 
