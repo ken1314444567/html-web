@@ -7,7 +7,7 @@
 true
 false
 //只能是英文大小寫或是數字 開頭不能是數字
-var myname = "小白";
+/*var myname = "小白";
 var myage = 87;
 var ismale = true;
 document.write(ismale);
@@ -19,33 +19,33 @@ document.write("<br/>");
 document.write("25");
 document.write("<br/>");*/
 //使用字串,數字 字串用法
-var phrase = "hello Mr.doki";
+/*var phrase = "hello Mr.doki";
 document.write(phrase.substring(2,10));
 document.write("<br/>");
 var number = 2.3
 document.write(Math.round(Math.random() *10));
-document.write("<br/>");
+document.write("<br/>");*/
 //製作計算機
-var num1 = prompt("請輸入數字1");
+/*var num1 = prompt("請輸入數字1");
 var num2 = prompt("請輸入數字2");
 num1 = parseFloat(num1);
 num2 = parseFloat(num2);
-document.write(num1 + num2);
+document.write(num1 + num2);*/
 //array
-var scores = [80,60,30,20,50];
+/*var scores = [80,60,30,20,50];
 var frinedes = [true,false,"black","green"];
-document.write(frinedes.length);
+document.write(frinedes.length);*/
 //function
-function add(num1,num2){
+/*function add(num1,num2){
    document.write(num1 + num2);
    document.write("<br/>");
 	return 10;
 	document.write("你好");
 }
 value = add(3,2);
-document.write( value );
+document.write( value );*/
 //if..else
-var hungry = true;
+/*var hungry = true;
 if(hungry){
 	document.write("我就去吃飯");
 }
@@ -72,9 +72,9 @@ var person = {
 		document.write(this.name);
 	}
 };
-person.print_name();
+person.print_name();*/
 //object現實
-var movie = {
+/*var movie = {
 	title:"刻在你心裡的名字",
 	maker:"氧氣電影",
 	duration:114,
@@ -103,9 +103,9 @@ do{
 	document.write(i);
 	document.write("<br/>");
 	i++;
-}while( i <= 3)
+}while( i <= 3)*/
 //answerkey檢驗
-var password = 123456;
+/*var password = 123456;
 var input;
 var entry_count = 0;
 var entry_limit = 3;
@@ -127,7 +127,8 @@ if(out_of_limit){
 //for
 for(var i = 0; i < 3;i++){
 	document.write(i);
-}
+}*/
+//問答程式
 
 
 
