@@ -129,7 +129,7 @@ for(var i = 0; i < 3;i++){
 	document.write(i);
 }*/
 //問答程式
-var questions = [
+/*var questions = [
 	{
 		prompt:"香蕉是什麼顏色?\n(a)紅色\n(b)綠色\n(c)黃色",
 		answer:"c"
@@ -139,12 +139,86 @@ var questions = [
 		answer:"a"
 	},
 	{
-		prompt:""\n(a)1\n(b)100\n(c)1000"
+		prompt:"1公尺等於是幾公分\n(a)1\n(b)100\n(c)1000",
 		answer:"c"
 	}
 ]
 var score = 0;
-for(var i=0; i <)
-
-
-
+for(var i=0; i <questions.length;i++){
+	var input=prompt(questions[i].prompt);
+	if(input==questions[i].answer){
+		score++;
+		alert("答對了");
+	}else{
+	    alert("答錯了");
+	}
+}
+alert("總共答對了" + score + "題");*/
+//二維陣列 & 巢狀迴圈
+/*var number = [
+	[1,2,3],
+	[4,5,6],
+	[7,8,9],
+	[0]
+];
+for( var i = 0; i < 4;i++){
+	for(var j = 0; j < number[i].length;j++){
+		document.write(number[i][j]);
+	    
+	}
+	document.write("<br/>");
+}*/
+//class
+/*class Phone {
+	construct(number,year,is_waterproof){
+		this.number = number;
+		this.year = year;
+		this.is_waterproof = is_waterproof;
+	}
+	phone_age(){
+		return 2021 - this.year;
+	}
+}
+var phone1 = new Phone("123",2020,false);
+var phone2 = new Phone("456",2018,false);
+document.write(phone1.phone_age());
+document.write(phone2.phone_age());*/
+//取得html元素
+/*document.write()
+window.document.write("哈哈哈");
+window.prompt("哈哈");
+var h1 = document.getElementById("header");
+console.log(h1);*/
+//event listener
+/*function handle_click(element){
+	//alert("教你按就按啊?");
+	element.innerText = "按屁阿";
+	element.style.color = "red";
+}
+var btn = document.getElementById("btn");
+btn.addEventListener("click",function(){
+	this.innerText = "按屁阿";
+	this.style.color = "ted";
+					 })
+var img = document.getElementById("img");
+img.addEventListener("mouseover",function(){
+	this.src = "e60fd35457be8c6d.jpg";
+})
+img.addEventListener("mouseout",function(){
+	this.src = "20.jpg";
+})*/
+//blog create
+/*var title = document.getElementById("title");
+var content = document.getElementById("content");
+var btn = document.getElementById("btn");
+var list = document.getElementById("list");
+btn.addEventListener("click",function(){
+	list.innerHTML = list.innerHTML + `
+		 <div class="article">
+			        <h2>${title.value}</h2>
+					<p>${content.value}</p>
+			   </div>
+ `;
+	title.value = "";
+	content.value = "";
+})*/
