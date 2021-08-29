@@ -129,7 +129,22 @@ for(var i = 0; i < 3;i++){
 	document.write(i);
 }*/
 //問答程式
-
+var questions = [
+	{
+		prompt:"香蕉是什麼顏色?\n(a)紅色\n(b)綠色\n(c)黃色",
+		answer:"c"
+	},
+	{
+		prompt:"草莓是什麼顏色?\n(a)紅色\n(b)紫色\n(c)黃色",
+		answer:"a"
+	},
+	{
+		prompt:""\n(a)1\n(b)100\n(c)1000"
+		answer:"c"
+	}
+]
+var score = 0;
+for(var i=0; i <)
 
 
 
