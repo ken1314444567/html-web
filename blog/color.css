@@ -4,3 +4,39 @@ h3{
 .name{
 	color: red;
 }
+svg{
+  position: fixed;
+  bottom:5%;
+  right: 5%;
+  opacity: 0;
+  z-index: 3;
+  transition: 0.3s;
+  cursor: pointer;
+  
+  .progress{
+  --dashOffset: 300;
+  stroke-dashoffset: var(--dashOffset);
+  transform: rotate(-90deg);
+  transform-origin: center;
+  }
+  .arrow{
+    transform: translate(25%, 30%);
+    animation: arrow 2s infinite ease-in;
+  }
+  
+}
+
+@keyframes arrow{
+  0%, 30%{
+    transform: translate(25%, 30%);
+    opacity: 1;
+  }
+  80%{
+    transform: translate(25%, 12%);
+    opacity: 0.3;
+  }
+  90%,100%{
+    transform: translate(25%, 8%);
+    opacity: 0;
+  }
+}
