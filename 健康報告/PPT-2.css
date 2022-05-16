@@ -1,0 +1,48 @@
+.li div{
+	border: 1px solid black;
+	padding: 10px;
+	width: 100px;
+}
+.li{
+	display: flex;
+}
+.li-1{
+	flex: 1;
+}
+.li-2{
+	flex: 1;
+}
+.li-3{
+	flex: 1;
+}
+@keyframes color{
+	0%{border:5px solid red;}
+	20%{border: 5px solid  orange;}
+	40%{border:5px solid yellow;}
+	60%{border: 5px solid  green;}
+	80%{border:5px solid blue;}
+	100%{border: 5px solid  purple;}
+}
+.ave{
+	border: 5px solid blue;
+	animation-name: color;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+}
+.ls div{
+	padding: 10px;
+	width: 100px;
+}
+.ls{
+	display: flex;
+}
+.ls-1{
+	flex: 1;
+}
+.ls-2{
+	flex: 1;
+}
+.ls-3{
+	flex: 1;
+}

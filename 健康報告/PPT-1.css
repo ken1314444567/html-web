@@ -1,0 +1,15 @@
+@keyframes change-color{
+	0%{border:20px solid red;}
+	20%{border: 20px solid  orange;}
+	40%{border:20px solid yellow;}
+	60%{border: 20px solid  green;}
+	80%{border:20px solid blue;}
+	100%{border: 20px solid  purple;}
+}
+.animation{
+	border: 20px solid blue;
+	animation-name: change-color;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+}
