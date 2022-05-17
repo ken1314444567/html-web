@@ -15,6 +15,7 @@
 .li-3{
 	flex: 1;
 }
+
 @keyframes color{
 	0%{border:5px solid red;}
 	20%{border: 5px solid  orange;}
@@ -31,18 +32,42 @@
 	animation-delay: 1s;
 }
 .ls div{
-	padding: 10px;
-	width: 100px;
+	 
+ 
+ padding: 10px;
+ width: 100px;
+ 
 }
 .ls{
+	clear: both;
+	vertical-align:middle; 
+    font-size:14px;
 	display: flex;
 }
 .ls-1{
+	position: relative ;
+	top: -45px;
 	flex: 1;
 }
 .ls-2{
+	position: relative;
+	left: 65px;
 	flex: 1;
 }
 .ls-3{
+	
 	flex: 1;
+}
+.btn{
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  transition: padding 1s 0s ease;
+  background-color: 1s 1s;
+}
+.btn:hover{
+  color: red;
+  
 }
