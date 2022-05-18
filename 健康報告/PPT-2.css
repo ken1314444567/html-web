@@ -149,7 +149,7 @@ nav a{
 		background-color: #282923;
 		align-items: center;
 	}
-	.logo{
+.logo{
 	}
 	nav{
 		position: relative;
@@ -164,9 +164,10 @@ nav a{
 		border-bottom:  none;
 	}
 }
-	.logo a{
+.logo a{
 	    display: block;
 		height: 40px;
 	}
-	.logo img{
-display: block;}
+.logo img{
+display: block;
+}
