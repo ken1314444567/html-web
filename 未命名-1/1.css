@@ -1,18 +1,3 @@
-@keyframes change-color{
-	0%{border:20px solid red;}
-	20%{border: 20px solid  orange;}
-	40%{border:20px solid yellow;}
-	60%{border: 20px solid  green;}
-	80%{border:20px solid blue;}
-	100%{border: 20px solid  purple;}
-}
-.animation{
-	border: 20px solid blue;
-	animation-name: change-color;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-delay: 1s;
-}
 .btn{
 	display: inline-block;
 	padding: 5px 10px;
@@ -47,7 +32,6 @@
 .logo{
 	width: 60px;
 	height: 40px;
-	margin-left: 10px;
 }
 .logo img{
    vertical-align: middle;
@@ -98,36 +82,3 @@ nav a{
 #menu_control:checked ~ .header nav{
 	left: 0;
 }
-@media screen and (min-width:768px){
-	.menu_btn{display: none;}
-	.header{
-		display: flex;
-		justify-content: space-between;
-		background-color: #282923;
-		align-items: center;
-	}
-	.logo{
-	}
-	nav{
-		position: relative;
-		left: 0;
-		display: flex;
-		width: auto;
-		height: auto;
-		top:0;
-		background-color: transparent;
-	}
-	nav a{
-		border-bottom:  none;
-	}
-}
-	.logo a{
-	    display: block;
-		height: 40px;
-	}
-	.logo img{
-display: block;}
-	
-
-
-
