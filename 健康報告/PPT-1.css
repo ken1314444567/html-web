@@ -127,7 +127,14 @@ nav a{
 	}
 	.logo img{
 display: block;}
-	
-
+.adim{
+ position: relative;
+ bottom: -20px;
+ right:-5px;
+}	
+.people{
+ position: relative;
+ right: -20px;
+}
 
 
