@@ -1,7 +1,7 @@
 .li div{
-	border: 1px solid black;
-	padding: 10px;
-	width: 100px;
+	border:1px solid black;
+	padding:10px;
+	width:100px;
 }
 .li{
 	display: flex;
@@ -15,15 +15,15 @@
 .li-3{
 	flex: 1;
 }
-
 @keyframes color{
-	0%{border:5px solid red;}
-	20%{border: 5px solid  orange;}
-	40%{border:5px solid yellow;}
-	60%{border: 5px solid  green;}
-	80%{border:5px solid blue;}
-	100%{border: 5px solid  purple;}
+	0%{border:5px solid   red;}
+	20%{border: 5px solid orange;}
+	40%{border:5px solid  yellow;}
+	60%{border: 5px solid green;}
+    80%{border:5px solid  blue;}
+	100%{border: 5px solid purple;}
 }
+/*選擇頁數(上方)*/
 .ave{
 	border: 5px solid blue;
 	animation-name: color;
@@ -55,7 +55,6 @@
 	flex: 1;
 }
 .ls-3{
-	
 	flex: 1;
 }
 .sla{
@@ -69,8 +68,6 @@
 }
 .sla:hover{
   color:red;
- 
-  
 }
 *{
 	margin: 0;
@@ -154,9 +151,9 @@ nav a{
 	nav{
 		position: relative;
 		left: 0;
-		display: flex;
-		width: auto;
-		height: auto;
+		display:flex;
+		width:auto;
+		height:auto;
 		top:0;
 		background-color: transparent;
 	}
